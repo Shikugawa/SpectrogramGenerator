@@ -1,0 +1,33 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\SpectrogramWithFft.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\SpectrogramWithFft.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Signal.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.Form1.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Graphic.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Graphic.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Graphic.xml
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\SpectrogramWithFft.exe
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\SpectrogramWithFft.pdb
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Graphic.pdb
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Graphic.xml
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Signal.pdb
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Signal.xml
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Sound.pdb
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\bin\Debug\Sound.xml
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.csprojResolveAssemblyReference.cache
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.Form1.resources
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.Properties.Resources.resources
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.csproj.GenerateResource.Cache
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.csproj.CoreCompileInputs.cache
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.exe
+C:\Users\shikugawa\Downloads\SpectrogramWithFft_20121103\SpectrogramWithFft\SpectrogramWithFft\obj\x86\Debug\SpectrogramWithFft.pdb

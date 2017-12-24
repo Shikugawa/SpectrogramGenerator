@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Graphic</name>
+    </assembly>
+    <members>
+        <member name="T:Graphic.Properties.Resources">
+            <summary>
+              ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+            </summary>
+        </member>
+        <member name="P:Graphic.Properties.Resources.ResourceManager">
+            <summary>
+              このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+            </summary>
+        </member>
+        <member name="P:Graphic.Properties.Resources.Culture">
+            <summary>
+              厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+              現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+            </summary>
+        </member>
+        <member name="T:Graphic.ColorClass.Colormap">
+            <summary>
+            2次元グラフ用のカラーマップを生成します。
+            </summary>
+        </member>
+        <member name="F:Graphic.ColorClass.Colormap.StartH">
+            <summary>
+            HSV色環の開始H値[deg]
+            </summary>
+        </member>
+        <member name="F:Graphic.ColorClass.Colormap.EndH">
+            <summary>
+            HSV色環の終了H値[deg]
+            </summary>
+        </member>
+        <member name="F:Graphic.ColorClass.Colormap.S">
+            <summary>
+            HSV色環のthis.S値
+            </summary>
+        </member>
+        <member name="F:Graphic.ColorClass.Colormap.V">
+            <summary>
+            HSV色環のthis.V値
+            </summary>
+        </member>
+        <member name="F:Graphic.ColorClass.Colormap.Reverse">
+            <summary>
+            逆順描画
+            </summary>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.#ctor">
+            <summary>
+            青から始まり赤で終わる、標準的なカラーマップを生成
+            </summary>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.#ctor(System.Double,System.Double)">
+            <summary>
+            開始色と終了色を指定したカラーマップを生成
+            </summary>
+            <param name="start">0%となる色の色相(degree 0～360)</param>
+            <param name="end">100%となる色の色相(degree 0～360)</param>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            開始色と終了色、明度と彩度を指定したカラーマップを生成
+            </summary>
+            <param name="start">0%となる色の色相(degree 0～360)</param>
+            <param name="end">100%となる色の色相(degree 0～360)</param>
+            <param name="saturation">彩度(0～100%)</param>
+            <param name="brightness">明度(0～100%)</param>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.GenerateColorMap(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            カラーマップ用の各種変数の初期化
+            （コンストラクタから呼び出される）
+            </summary>
+            <param name="start">0%となる色の色相(degree 0～360)</param>
+            <param name="end">100%となる色の色相(degree 0～360)</param>
+            <param name="saturation">彩度(0～100%)</param>
+            <param name="brightness">明度(0～100%)</param>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.GetColor(System.Double,System.Double,System.Double)">
+            <summary>
+            与えられた値の色を返す
+            </summary>
+            <param name="value">値（最小値≦値≦最大値）</param>
+            <param name="min">最小値</param>
+            <param name="max">最大値</param>
+            <returns>Colorオブジェクト</returns>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.GetColor(System.Double)">
+            <summary>
+            与えられた値の色を返す
+            </summary>
+            <param name="value">値（0.0～1.0）</param>
+            <returns>Colorオブジェクト</returns>
+        </member>
+        <member name="M:Graphic.ColorClass.Colormap.ConvertHSVtoRGB(System.Double,System.Double,System.Double)">
+            <summary>
+            HSV色空間情報からColorオブジェクトへ変換します。
+            参考： http://ja.wikipedia.org/wiki/HSV色空間
+            </summary>
+            <param name="_h">色相(0～360)</param>
+            <param name="_s">彩度(0～100)</param>
+            <param name="_v">明度(0～100)</param>
+            <returns>HSV色空間データから生成されたColorオブジェクト</returns>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph">
+            <summary>
+            グラフフォームクラスです。
+            基本、散布図を表示することを想定しています。
+            2011/7/24 やはり突貫で作ったので洗練されていません。
+            </summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph._corner">
+            <summary>グラフの座標</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph._plotKind">
+            <summary>描画モード</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.plotDone">
+            <summary>表示済みだとtrue</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.x">
+            <summary>データを格納する配列</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.y">
+            <summary>データを格納する配列</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.length">
+            <summary>描写するデータ量</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.lengthOverAll">
+            <summary>全体のデータ量</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.axisRatio">
+            <summary>プロットデータの軸比<para>x軸成分1つ当たりのy軸成分1つの大きさと定義する。</para><para>ratio = Height / Width</para></summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.plotLock">
+            <summary>表示処理中にデータが変更されるのを伏せぶためのロックフラグ</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.task">
+            <summary>データの取得に使用するタスク</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph._bmp">
+            <summary>背景画像</summary>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.#ctor(Graphic.Graph.FrmXYGraph.PlotKind,System.String)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="kind">グラフの描画モードdot/line</param>
+            <param name="graphName">グラフの名前</param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Show(Graphic.Graph.FrmXYGraph.Corner,System.Double)">
+            <summary>
+            フォームを表示する
+            </summary>
+            <param name="_corner">コーナーの座標</param>
+            <param name="_axisRatio">プロットデータの軸比<para>x軸成分1つ当たりのy軸成分1つの大きさと定義する。</para><para>ratio = Height / Width</para></param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.SetCorner(Graphic.Graph.FrmXYGraph.Corner,System.Double)">
+            <summary>
+            対角の座標と軸比をセットします
+            </summary>
+            <param name="_corner">コーナーの座標</param>
+            <param name="_axisRatio">プロットデータの軸比<para>x軸成分1つ当たりのy軸成分1つの大きさと定義する。</para><para>ratio = Height / Width</para></param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Position2XYaddress(Graphic.Graph.FrmXYGraph.Position)">
+            <summary>
+            指定座標のx,yアドレスを返す
+            <para>
+            境界値と同じ座標を渡すと、計算アドレスがマップサイズと等しくなり、存在しないアドレスを指すことになることに注意すること。
+            つまり、マップの要素番号は0～size-1であることに注意せよってこと。
+            また、マップ領域外の座標を指定されてもマップのローカル座標系のアドレスを返す。
+            </para>
+            </summary>
+            <param name="_position">指定座標（緯度・経度）</param>
+            <returns>x,yアドレス</returns>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Plot(System.Double[],System.Double[],System.Int32)">
+            <summary>
+            グラフ表示を指示するメソッド
+            散布図形式となっている。
+            ただちに表示されるわけではない。
+            
+            要素数を指定することで、指定配列の特定要素までの描写を行うということが可能になる。
+            </summary>
+            <param name="_x">x軸成分の配列</param>
+            <param name="_y">y軸成分の配列</param>
+            <param name="_length">配列の要素数</param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Plot(System.Double[],System.Double[],System.Int32,System.Int32)">
+            <summary>
+            グラフ表示を指示するメソッドその2
+            <para>
+            散布図形式となっている。
+            ただちに表示されるわけではない。
+            
+            全体のデータ量を指定できるので、描写における色と時間や順番を関連付けられる。
+            </para>
+            <para>[2012/1/5追記]Taskクラスの使い方がまだ不慣れでうまく記述できない。。。</para>
+            </summary>
+            <param name="_x">x軸成分の配列</param>
+            <param name="_y">y軸成分の配列</param>
+            <param name="_length">配列の要素数</param>
+            <param name="_lenghtOverAll">全体のデータ数</param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.timer4Calc_Tick(System.Object,System.EventArgs)">
+            <summary>
+            タイマーの動作
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.GraphPaint">
+            <summary>
+            グラフを表示する本体の関数
+            </summary>
+        </member>
+        <member name="P:Graphic.Graph.FrmXYGraph.CreateParams">
+            <summary>
+            「閉じるボタン」を無効化する
+            </summary>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph.PlotKind">
+            <summary>
+            描画モード
+            </summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.PlotKind.dot">
+            <summary>点線モード</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.PlotKind.line">
+            <summary>実線モード</summary>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph.Pos">
+            <summary>
+            x,yの座標セット
+            マップのアドレス計算用
+            </summary>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph.Position">
+            <summary>
+            x,yの組を格納する構造体です
+            </summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.Position.x">
+            <summary>x座標値</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.Position.y">
+            <summary>y座標値</summary>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Position.#ctor(System.Double,System.Double)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="_x">x座標値</param>
+            <param name="_y">y座標値</param>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph.Corner">
+            <summary>
+            グラフの右上と左下を格納する構造体です
+            <para>グラフのマッピングに使用します。</para>
+            </summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.Corner.upperRight">
+            <summary>右上の座標</summary>
+        </member>
+        <member name="F:Graphic.Graph.FrmXYGraph.Corner.lowerLeft">
+            <summary>左下の座標</summary>
+        </member>
+        <member name="M:Graphic.Graph.FrmXYGraph.Corner.#ctor(Graphic.Graph.FrmXYGraph.Position,Graphic.Graph.FrmXYGraph.Position)">
+            <summary>
+            座標格納用
+            </summary>
+            <param name="_upRight">右上の座標</param>
+            <param name="_lowLeft">左下の座標<para>通常は原点です。</para></param>
+        </member>
+        <member name="P:Graphic.Graph.FrmXYGraph.Corner.Ratio">
+            <summary>
+            プロットエリアの軸比
+            <para>y軸/x軸で定義しています。</para>
+            </summary>
+        </member>
+        <member name="T:Graphic.Graph.FrmXYGraph.GraphPaintDelegate">
+            <summary>
+            別スレッドからアクセスする際に使用するデリゲート
+            </summary>
+        </member>
+        <member name="T:Graphic.BmpGenerator">
+            <summary>
+            Colorクラスオブジェクトの2元配列から画像を生成するクラス
+            </summary>
+        </member>
+        <member name="F:Graphic.BmpGenerator.bitmap">
+            <summary>
+            ビットマップデータ
+            </summary>
+        </member>
+        <member name="M:Graphic.BmpGenerator.Dispose">
+            <summary>
+            破棄メソッド
+            </summary>
+        </member>
+        <member name="M:Graphic.BmpGenerator.PixelAt(System.Drawing.Imaging.BitmapData,System.Int32,System.Int32)">
+            <summary>
+            画像情報とアドレスからポインタを計算して返す
+            </summary>
+            <param name="bmpData">画像情報</param>
+            <param name="x">xアドレス</param>
+            <param name="y">yアドレス</param>
+            <returns>ポインタ</returns>
+        </member>
+        <member name="M:Graphic.BmpGenerator.MakeBmp(System.Drawing.Color[0:,0:])">
+            <summary>
+            配列をセットすることで画像を生成する
+            <para>生成された画像はBitmapプロパティにより取得可能です。</para>
+            </summary>
+            <param name="bmp">画像化したい2次元配列</param>
+        </member>
+        <member name="M:Graphic.BmpGenerator.#ctor">
+            <summary>
+            コンストラクタ
+            </summary>
+        </member>
+        <member name="P:Graphic.BmpGenerator.Bitmap">
+            <summary>
+            生成したビットマップデータ
+            <para>画像オブジェクトのインスタンスを新規に作成して渡します。</para>
+            </summary>
+        </member>
+        <member name="P:Graphic.BmpGenerator.PixelSize">
+            <summary>
+            画像サイズ
+            </summary>
+        </member>
+        <member name="T:Graphic.BmpGenerator.PixelData">
+            <summary>
+            画素値を格納する構造体
+            </summary>
+        </member>
+        <member name="F:Graphic.BmpGenerator.PixelData.blue">
+            <summary>
+            青
+            </summary>
+        </member>
+        <member name="F:Graphic.BmpGenerator.PixelData.green">
+            <summary>
+            緑
+            </summary>
+        </member>
+        <member name="F:Graphic.BmpGenerator.PixelData.red">
+            <summary>
+            赤
+            </summary>
+        </member>
+    </members>
+</doc>
